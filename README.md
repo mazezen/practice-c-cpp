@@ -49,6 +49,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # C99
 echo 'alias gcc15="/opt/homebrew/bin/gcc-15 -std=c99 -Wall -Wextra -g -isysroot $(xcrun --show-sdk-path)"' >> ~/.zshrc
 
+# C23 （suggest）
+echo 'alias gcc15="/opt/homebrew/bin/gcc-15 -std=c23 -Wall -Wextra -g -isysroot $(xcrun --show-sdk-path)"' >> ~/.zshrc
+
 # C++17
 echo 'alias g++15="/opt/homebrew/bin/g++-15 -std=c++17 -Wall -Wextra -g -isysroot $(xcrun --show-sdk-path)"' >> ~/.zshrc
 ```

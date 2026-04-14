@@ -2,10 +2,10 @@
   "tasks": [
     {
       "type": "shell",
-      "label": "GCC-15 编译当前文件 (C99)",
+      "label": "GCC-15 编译当前文件 (c23)",
       "command": "opt/homebrew/bin/gcc-15",
       "args": [
-        "-std=c99",
+        "-std=c23",
         "-Wall",
         "-Wextra",
         "-g",

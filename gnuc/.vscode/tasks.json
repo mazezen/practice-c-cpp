@@ -2,10 +2,10 @@
   "tasks": [
     {
       "type": "shell",
-      "label": "GCC-15 编译当前文件 (C99)",
+      "label": "GCC-15 编译当前文件 (C23)",
       "command": "opt/homebrew/bin/gcc-15",
       "args": [
-        "-std=c99",
+        "-std=c23",
         "-Wall",
         "-Wextra",
         "-g",
@@ -21,7 +21,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "使用 GCC-15 + C99 编译当前 C 文件(macOS)"
+      "detail": "使用 GCC-15 + C23 编译当前 C 文件(macOS)"
     }
   ],
   "version": "2.0.0"
