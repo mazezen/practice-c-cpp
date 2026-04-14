@@ -65,7 +65,7 @@ g++15 main.cpp -o main.app
 
 6. Debug instructions for Use
 
-1. start lldb debug (Linux: `lldb` repleace `gdb`
+   1. start lldb debug (Linux: `lldb` repleace `gdb`
 
    ```bash
    not arguments

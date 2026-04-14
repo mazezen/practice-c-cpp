@@ -2,12 +2,14 @@
 
 <a href="https://en.cppreference.com/">C++ Standard Library</a>
 
-
-
 ### Compilation
 
-> <a href= "https://github.com/mazezen/C-CppThings/tree/master">参考C-CppThings 下的 g++-15配置</a>
+### <a href= "https://github.com/mazezen/C-CppThings/tree/master">参考C-CppThings  下的 gcc15配置</a>
 
-### Website Resource
+```bash
+ gcc15 main.c -o main.app
+```
+
+### Website Rresouce
 
 1. <a href="https://en.cppreference.com/">cppreference</a>

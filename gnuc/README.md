@@ -15,6 +15,10 @@ reference manual for the C programming language as implemented by the GNU Compil
 
 > <a href= "https://github.com/mazezen/C-CppThings/tree/master">参考C-CppThings  下的 gcc15配置</a>
 
+```bash
+gcc15 main.c -o main.out
+```
+
 
 
 ### Website Resource
