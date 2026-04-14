@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "GCC-15 Debug (C99) - macOS",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "targetArchitecture": "arm64",
+      "preLaunchTask": "GCC-15 编译当前文件 (C99)",
+      "detail": "使用 GCC-15 + C99 编译并用 LLDB 调试(macOS Apple Silicon)"
+    }
+  ]
+}
