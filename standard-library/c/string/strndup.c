@@ -1,0 +1,25 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    const size_t n = 3;
+
+    const char *src = "Replica";
+    char *dup = strndup(src, n);
+    printf("dup = %s\n", dup);
+    free(dup);
+
+    src = "HI";
+    dup = strndup(src, n);
+    printf("strndup(\"%s\", %lu) == \"%s\"\n", src, n, dup);
+    free(dup);
+
+    const char arr[] = {'A', 'B', 'C', 'D'};
+    dup = strndup(arr, n);
+    printf("strndup({'A','B','C','D'}, %lu) == \"%s\"\n", n, dup);
+    free(dup);
+
+    return 0;
+}
